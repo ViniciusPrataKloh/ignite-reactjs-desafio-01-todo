@@ -1,0 +1,71 @@
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 46rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    color: var(--gray-200);
+}
+
+.task:first-child {
+    margin-top: 24px;
+}
+
+.checkAndDescription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 12px;
+    gap: 12px;
+    color: var(--gray-200);
+}
+
+.checkAndDescriptionFinished{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 12px;
+    gap: 12px;
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.trash{
+    margin-right: 14px;
+    background: transparent;
+    color: var(--gray-300);
+}
+
+.trash:hover{
+    color: var(--danger);
+}
+
+.circle{
+    background: transparent;
+    color: var(--blue-dark);
+    text-weight: bold;
+}
+
+.circle:hover{
+    color: var(--blue);
+}
+
+.checkCircle{
+    background: transparent;
+    color: var(--purple-dark);
+    text-weight: bold;
+}
+
+.checkCircle:hover{
+    color: var(--purple);
+}
+
+button:focus {
+    out-line: none;
+    box-shadow: none;
+    border: 0;
+}

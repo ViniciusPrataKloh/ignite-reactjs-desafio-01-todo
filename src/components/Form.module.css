@@ -1,0 +1,57 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -2.5rem;
+    widht: 46rem;
+    height: 3.375rem;
+}
+
+.formWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.formWrapper input{
+    width: 39.8rem;
+    height: 3.375rem;
+    border-radius: 8px;
+
+    padding: 0 16px;
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    font-weight: 400;
+}
+
+.formWrapper placeholder{
+    color: var(--gray-300);
+}
+
+.formWrapper button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4px;
+
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+}
+
+.formWrapper button:hover:not(:disabled){
+    transition: .3s;
+    background-color: var(--blue);
+}
+
+.formWrapper button:disabled{
+    cursor: not-allowed;
+}
